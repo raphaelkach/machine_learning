@@ -1,0 +1,25 @@
+[project]
+name = "ml"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "raphaelkach",email = "wi23146@lehre.dhbw-stuttgart.de"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pdpbox (>=0.3.0,<0.4.0)",
+    "smote (>=0.1,<0.2)",
+    "imbalanced-learn (>=0.13.0,<0.14.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
